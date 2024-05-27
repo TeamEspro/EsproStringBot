@@ -8,8 +8,7 @@ keyboard = InlineKeyboardMarkup(
         [InlineKeyboardButton(text="ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ", callback_data="gensession")],
         [
             InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=SUPPORT_CHAT),
-            InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url="https://t.me/i_ii_ritikraj_ii_i"
+            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=config.OWNER_ID
             ),
         ],
     ]
