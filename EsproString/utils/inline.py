@@ -1,6 +1,7 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 import config
+from config import SUPPORT_CHAT, OWNER_ID
 
 
 keyboard = InlineKeyboardMarkup(
